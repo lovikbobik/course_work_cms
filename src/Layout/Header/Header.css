@@ -1,0 +1,59 @@
+.header__container {
+    position: sticky;
+
+}
+
+.header__title {
+    background-color: dodgerblue;
+}
+
+.header__title > h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 20px;
+
+}
+
+.header__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: darkgray 1px solid;
+
+}
+
+.header__logo-fefu {
+    margin-left: 70px;
+}
+
+.header__profile {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    margin-right: 70px;
+    color: gray;
+    font-weight: 600;
+    font-size: 22px;
+
+}
+
+.header__profile > p {
+    margin-right: 10px;
+
+}
+
+.header__info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header__info > p {
+    margin-right: 25px;
+    color: dodgerblue;
+    font-weight: 600;
+    font-size: 18px;
+}

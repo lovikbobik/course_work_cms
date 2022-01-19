@@ -1,0 +1,9 @@
+.product__img-size{
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.product{
+    display: flex;
+    flex-direction: row;
+}
