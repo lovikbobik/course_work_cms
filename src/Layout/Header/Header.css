@@ -22,32 +22,28 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    border-bottom: darkgray 1px solid;
+    border-bottom: #c2c2c2 1px solid;
     background-color:white;
-
+    align-items: center;
 }
 
 .header__logo-fefu {
     margin-left: 70px;
+    padding: 10px;
 }
 
 .header__profile {
-    min-width: 130px;
     display: flex;
-    align-items: center;
     flex-direction: row;
-    justify-content: space-between;
-    text-align: center;
-    margin-right: 70px;
     color: gray;
     font-weight: 600;
     font-size: 22px;
-
+    align-items: center;
+    justify-content: center;
 }
-.header__profile-data{
-    color: gray;
 
+.header__profile > p {
+    margin-right: 20px;
 }
 
 .header__info {
@@ -62,4 +58,15 @@
     font-weight: 600;
     font-size: 18px;
     text-decoration: none;
+    padding: 20px;
+}
+
+.blue__text > p{
+    padding: 20px;
+}
+
+.blue__text > p:hover{
+    background-color: #dcf1fa;
+    border-radius: 20px;
+    transition: background-color 200ms ease-out;
 }
