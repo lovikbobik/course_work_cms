@@ -1,4 +1,9 @@
 import React from "react";
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import './App.css';
+import Main from "./Main/Main";
+import Layout from "./Layout/Layout";
+import Category from "./Category/Category";
 import drinksIce from './Data/drinksIce'
 import categoryWater from "./Data/categoryWater";
 import categoryDessert from "./Data/categoryDessert";
@@ -8,11 +13,6 @@ import categoryBeer from "./Data/categoryBeer";
 import pizza from "./Data/Pizza";
 import Products from "./Product/Products";
 import drinksHot from "./Data/drinksHot";
-import Layout from "./Layout/Layout";
-import Main from "./Main/Main";
-import Category from "./Category/Category";
-
-import {Route, Router, Routes} from "react-router-dom";
 
 
 function App() {
@@ -21,6 +21,7 @@ function App() {
 
             <Router>
                 <Routes>
+                    
                     <Route path="/" exact element={<Layout children={<Main pizza={pizza}/>}/>}/>
                     <Route path="/drinks" exact element={<Layout children={<Category category={categoryWater}/>}/>}/>
                     <Route path="/desserts" exact element={<Layout children={<Category category={categoryDessert}/>}/>}/>
