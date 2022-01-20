@@ -1,4 +1,4 @@
-
+import React from "react";
 import drinksIce from './Data/drinksIce'
 import categoryWater from "./Data/categoryWater";
 import categoryDessert from "./Data/categoryDessert";
@@ -11,8 +11,9 @@ import drinksHot from "./Data/drinksHot";
 import Layout from "./Layout/Layout";
 import Main from "./Main/Main";
 import Category from "./Category/Category";
-import {Route, Router} from "@mui/icons-material";
-import {Routes} from "react-router-dom";
+
+import {Route, Router, Routes} from "react-router-dom";
+
 
 function App() {
     return (
