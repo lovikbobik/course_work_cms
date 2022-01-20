@@ -8,6 +8,11 @@ import categoryBeer from "./Data/categoryBeer";
 import pizza from "./Data/Pizza";
 import Products from "./Product/Products";
 import drinksHot from "./Data/drinksHot";
+import Layout from "./Layout/Layout";
+import Main from "./Main/Main";
+import Category from "./Category/Category";
+import {Route, Router} from "@mui/icons-material";
+import {Routes} from "react-router-dom";
 
 function App() {
     return (
