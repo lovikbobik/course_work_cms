@@ -4,7 +4,6 @@ import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import logo from './logo.jpeg';
 import {NavLink} from "react-router-dom";
 import React from "react";
-import MyMap from "../../Information/MyMap";
 
 function Header() {
     return (
