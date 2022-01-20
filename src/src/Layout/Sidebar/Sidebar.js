@@ -27,9 +27,15 @@ function Sidebar() {
                 <SidebarItem Icon={IcecreamOutlinedIcon} text={"Десерты"}/>
             </NavLink>
 
-            <SidebarItem Icon={DiningOutlinedIcon} text={"Комбо"}/>
-            <SidebarItem Icon={LoyaltyOutlinedIcon} text={"Акции"}/>
-            <SidebarItem Icon={LiquorOutlinedIcon} text={"Пиво!"}/>
+            <NavLink to={'/combo'} className={'sidebar__text-decoration'}>
+                <SidebarItem Icon={DiningOutlinedIcon} text={"Комбо"}/>
+            </NavLink>
+            <NavLink to={'/sale'} className={'sidebar__text-decoration'}>
+                <SidebarItem Icon={LoyaltyOutlinedIcon} text={"Акции"}/>
+            </NavLink>
+            <NavLink to={'/beer'} className={'sidebar__text-decoration'}>
+                <SidebarItem Icon={LiquorOutlinedIcon} text={"Пиво!"}/>
+            </NavLink>
         </div>
     )
 }
