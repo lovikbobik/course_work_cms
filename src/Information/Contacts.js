@@ -13,7 +13,7 @@ function Contacts() {
            </div>
            <div className={'contacts-container'}>
                <div className={'contacts-container__info'}>
-                   <h2>Мы в  истаграме :</h2>
+                   <h2>Мы в  Истаграме :</h2>
                    <div className={'contacts-container__desc'}>
                    <InstagramIcon className={'contacts-container__icon1'}/>
                    <a href={"https://www.instagram.com/bobiklovik/"}> https://www.instagram.com/bobiklovik</a>
