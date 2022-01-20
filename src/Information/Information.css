@@ -1,5 +1,7 @@
 .contacts{
     display: flex;
+    width: 100vw;
+    justify-content: center;
 }
 
 .contacts-container__info{
