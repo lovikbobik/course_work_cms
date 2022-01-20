@@ -33,18 +33,21 @@
 }
 
 .header__profile {
+    min-width: 130px;
     display: flex;
+    align-items: center;
     flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin-right: 70px;
     color: gray;
     font-weight: 600;
     font-size: 22px;
-    align-items: center;
-    justify-content: center;
 }
 
-.header__profile > p {
-    margin-right: 20px;
-}
+.header__profile-data {
+            color: gray;
+        }
 
 .header__info {
     display: flex;
@@ -60,9 +63,8 @@
     text-decoration: none;
     padding: 20px;
 }
-
 .blue__text > p{
-    padding: 20px;
+    padding: 10px;
 }
 
 .blue__text > p:hover{
