@@ -1,10 +1,10 @@
 import React from "react";
-import './Category.css'
-import CategoryBox from "./CategoryBox";
+import '../Category/Category.css'
+import CategoryBox from "../Category/CategoryBox";
 import {NavLink} from "react-router-dom";
-import ProductBox from "../Product/ProductBox";
+import ProductBox from "./ProductBox";
 
-function ProductsView({products}) {
+function Products({products}) {
     return (
         <div className={'category'}>
 
@@ -16,4 +16,4 @@ function ProductsView({products}) {
     );
 }
 
-export default ProductsView;
+export default Products;
