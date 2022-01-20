@@ -33,10 +33,7 @@ function Header() {
                     <SettingsOutlinedIcon className={'header__profile-data'}/>
                 </div>
             </div>
-
-
         </div>
-
 
     )
         ;
