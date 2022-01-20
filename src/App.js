@@ -1,9 +1,4 @@
-import React from "react";
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
-import './App.css';
-import Main from "./Main/Main";
-import Layout from "./Layout/Layout";
-import Category from "./Category/Category";
+
 import drinksIce from './Data/drinksIce'
 import categoryWater from "./Data/categoryWater";
 import categoryDessert from "./Data/categoryDessert";
