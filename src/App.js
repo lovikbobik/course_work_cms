@@ -17,6 +17,7 @@ import drinksHot from "./Data/drinksHot";
 function App() {
     return (
         <>
+
             <Router>
                 <Routes>
                     <Route path="/" exact element={<Layout children={<Main pizza={pizza}/>}/>}/>
