@@ -1,6 +1,10 @@
 import './Header.css';
 import LocalGroceryStoreOutlinedIcon from '@mui/icons-material/LocalGroceryStoreOutlined';
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
+import logo from './logo.jpeg';
+import {NavLink} from "react-router-dom";
+import React from "react";
+import MyMap from "../../Information/MyMap";
 
 function Header() {
     return (
@@ -11,13 +15,15 @@ function Header() {
 
             <div className={'header__menu'}>
                 <div className={'header__logo-fefu'}>
-                    <p>logo</p>
+                    <img src={logo} alt="logo"  width="100" height="80" />
                 </div>
                 <div className={'header__info'}>
-                    <p>Работаем 9:00-22:00</p>
-                    <p>Контакты</p>
-                    <p>Помощь</p>
-                    <p>Наш адресс</p>
+                    <p className={'blue__text'}>Контакты</p>
+                    <p className={'blue__text'}>Помощь</p>
+                    <NavLink to={'/info'} className={'blue__text'} >
+                        <p>Наш адрес</p>
+                    </NavLink>
+                    <p className={'blue__text'}>Качество</p>
 
                 </div>
                 <div className={'header__profile'}>
