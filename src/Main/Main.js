@@ -38,6 +38,14 @@ function Main({pizza}) {
                 <ProductBox product={pizza[1]}/>
                 <ProductBox product={pizza[2]}/>
                 <ProductBox product={pizza[3]}/>
+                <ProductBox product={pizza[0]}/>
+                <ProductBox product={pizza[3]}/>
+                <ProductBox product={pizza[2]}/>
+                <ProductBox product={pizza[1]}/>
+                <ProductBox product={pizza[0]}/>
+                <ProductBox product={pizza[1]}/>
+                <ProductBox product={pizza[2]}/>
+                <ProductBox product={pizza[0]}/>
             </div>
 
         </div>

@@ -9,7 +9,9 @@ function Layout({children}) {
         <>
             <Header/>
             <div className={'layout'}>
-                <div><Sidebar/></div>
+                <div>
+                    <Sidebar/>
+                </div>
                 {children}
             </div>
         </>

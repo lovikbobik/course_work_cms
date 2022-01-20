@@ -8,8 +8,8 @@ function MyMap() {
     return (
         <YMaps>
             <div style={{height: '70vh', width: '100%'}}>
-                <Map style={{height: '70vh', width: '100%'}}
-                     defaultState={{center: [43.024486, 131.893748], zoom: 16}}>
+                <Map style={{height: '80vh', width: '100%'}}
+                     defaultState={{center: [43.024486, 131.893748], zoom: 17}}>
                     <Placemark className={"wrapper"}
                                geometry={[43.024486, 131.893748]}
                                properties={{
