@@ -2,6 +2,7 @@ import React from "react";
 import './Basket.css'
 import {Button} from "@mui/material";
 import BasketItem from "./BasketItem";
+import BasketModal from "./BasketModal";
 
 function Basket({products}) {
     return (
@@ -18,7 +19,7 @@ function Basket({products}) {
                 </div>
 
                 <div className={'basket__footer'}>
-                    <Button className={'basket__button-buy'}>Заказать</Button>
+                    <BasketModal/>
                 </div>
             </div>
 

@@ -2,6 +2,10 @@
     max-height: 300px;
     max-width: 300px;
 }
+.product__body{
+    display: flex;
+    justify-content: center;
+}
 .product-border{
     background-color: white !important;
     padding: 10px;
@@ -12,7 +16,6 @@
     flex-direction: row;
     background-color: white;
     padding: 50px;
-
     max-width: 1000px;
 }
 .product__info{
