@@ -27,8 +27,6 @@ function Modal({ setOpenModal }) {
                     <h5>Режим работы</h5>
                     <p>10:00 - 22:00</p>
                 </div>
-                <div className="footer">
-                </div>
             </div>
         </div>
     );

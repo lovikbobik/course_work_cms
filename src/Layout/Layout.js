@@ -5,15 +5,15 @@ import './Layout.css'
 
 function Layout({children}) {
     return (
-        <div>
+        <>
             <Header/>
             <div className={'layout'}>
-                <div className={'white-blue'}>
+                <div>
                     <Sidebar/>
                 </div>
                 {children}
             </div>
-        </div>
+        </>
     );
 }
 

@@ -1,0 +1,33 @@
+.contacts{
+    display: flex;
+}
+
+.contacts-container__info{
+    background-color: #ecebeb;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px ;
+    min-width: 60vh;
+    text-align: center;
+}
+
+.contacts-container__desc{
+    display: flex;
+    justify-content: center;
+}
+
+.contacts-container__desc > a{
+    font-size: 17px;
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.contacts-container__icon1{
+    color: #c74c9f;
+    padding-right: 10px;
+}
+
+.contacts-container__icon2{
+    color:  dodgerblue;
+    padding-right: 10px;
+}
