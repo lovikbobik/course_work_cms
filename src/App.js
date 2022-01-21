@@ -48,12 +48,9 @@ function App() {
                     <Route path="/vegan" exact element={<Layout children={<Main pizza={pizza}/>}/>}/>
                     <Route path="/acute" exact element={<Layout children={<Main pizza={pizza}/>}/>}/>
 
-
-
                 </Routes>
             </Router>
         </>
-
     );
 }
 

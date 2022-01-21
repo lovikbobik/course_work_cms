@@ -37,7 +37,7 @@
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-align: center;
     margin-right: 70px;
     color: gray;
@@ -47,6 +47,7 @@
 
 .header__profile-data {
             color: gray;
+    padding: 10px;
         }
 
 .header__info {
@@ -69,6 +70,12 @@
 
 .blue__text > p:hover{
     background-color: #dcf1fa;
+    border-radius: 20px;
+    transition: background-color 200ms ease-out;
+}
+
+.header__profile-data:hover{
+    background-color: #e3e3e3;
     border-radius: 20px;
     transition: background-color 200ms ease-out;
 }

@@ -9,7 +9,7 @@ let categoryBeer = [
     },
     {
         image: 'https://s82079.cdn.ngenix.net/330x0/CDjH58C3YsVcXuoMUco4fa4t.png',
-        name: 'Темное1'
+        name: 'Темное'
     }
 ]
 
