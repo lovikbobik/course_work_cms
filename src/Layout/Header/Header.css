@@ -1,6 +1,6 @@
 .header__container {
     position: sticky;
-
+    z-index: 100;
 }
 
 .header__title {

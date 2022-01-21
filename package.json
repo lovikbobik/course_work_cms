@@ -22,10 +22,10 @@
     "web-vitals": "^2.1.3"
   },
   "scripts": {
-    "start": "node_modules/.bin/react-scripts start",
-    "build": "node_modules/.bin/react-scripts build",
-    "test": "node_modules/.bin/react-scripts test",
-    "eject": "node_modules/.bin/react-scripts eject"
+    "start": "C:/Users/drano/Documents/GitHub/course_work_cms/node_modules/.bin/react-scripts start",
+    "build": "C:/Users/drano/Documents/GitHub/course_work_cms/node_modules/.bin/react-scripts build",
+    "test": "C:/Users/drano/Documents/GitHub/course_work_cms/node_modules/.bin/react-scripts test",
+    "eject": "C:/Users/drano/Documents/GitHub/course_work_cms/node_modules/.bin/react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
