@@ -1,10 +1,26 @@
 .layout{
     display: flex;
     flex-direction: row;
-//background-color: #f2fafe;;
+   //background-color: #f2fafe;;
+    overflow-y: scroll;
+    flex: 0.6;
+}
+
+.layout::-webkit-scrollbar {
+    display: none;
+}
+
+.layout {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 .sticky{
     position: sticky;
     top: 0;
     z-index: 100;
+}
+.white-blue{
+    display: flex;
+    min-height: 850px;
+    align-items: flex-start;
 }
