@@ -26,15 +26,16 @@ function App() {
             <Router>
                 <Routes>
                     <Route path="/map" exact element={<Layout children={<MyMap/>}/>}/>
-                    <Route path="/contacts"exact element={<Layout children={<Contacts/>}/>}/>
-                    <Route path="/quality"exact element={<Layout children={<Quality/>}/>}/>
-                    <Route path="/help"exact element={<Layout children={<Help/>}/>}/>
+                    <Route path="/contacts" exact element={<Layout children={<Contacts/>}/>}/>
+                    <Route path="/quality" exact element={<Layout children={<Quality/>}/>}/>
+                    <Route path="/help" exact element={<Layout children={<Help/>}/>}/>
 
-                    <Route path="/basket"exact element={<Layout children={<Basket/>}/>}/>
+                    <Route path="/basket" exact element={<Layout children={<Basket/>}/>}/>
 
                     <Route path="/" exact element={<Layout children={<Main pizza={pizza}/>}/>}/>
                     <Route path="/drinks" exact element={<Layout children={<Category category={categoryWater}/>}/>}/>
-                    <Route path="/desserts" exact element={<Layout children={<Category category={categoryDessert}/>}/>}/>
+                    <Route path="/desserts" exact
+                           element={<Layout children={<Category category={categoryDessert}/>}/>}/>
                     <Route path="/combo" exact element={<Layout children={<Category category={categoryCombo}/>}/>}/>
                     <Route path="/sale" exact element={<Layout children={<Category category={categorySale}/>}/>}/>
                     <Route path="/beer" exact element={<Layout children={<Category category={categoryBeer}/>}/>}/>
