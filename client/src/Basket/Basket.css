@@ -25,7 +25,7 @@
 }
 .basket__footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 .basket__img{

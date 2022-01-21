@@ -19,7 +19,6 @@ function Basket({products}) {
                 </div>
 
                 <div className={'basket__footer'}>
-                    <h2>Общая стоимость: </h2>
                     <BasketModal/>
                 </div>
             </div>
