@@ -14,6 +14,7 @@ import pizza from "./Data/Pizza";
 import Products from "./Product/Products";
 import drinksHot from "./Data/drinksHot";
 import MyMap from "./Information/MyMap";
+import Basket from "./Basket/Basket";
 
 
 function App() {
@@ -23,6 +24,8 @@ function App() {
             <Router>
                 <Routes>
                     <Route path="/info" exact element={<Layout children={<MyMap/>}/>}/>
+                    <Route path="/basket" exact element={<Layout children={<Basket/>}/>}/>
+
                     <Route path="/" exact element={<Layout children={<Main pizza={pizza}/>}/>}/>
                     <Route path="/drinks" exact element={<Layout children={<Category category={categoryWater}/>}/>}/>
                     <Route path="/desserts" exact element={<Layout children={<Category category={categoryDessert}/>}/>}/>
