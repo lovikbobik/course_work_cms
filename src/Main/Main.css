@@ -18,7 +18,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
 }
 
 .tab{
@@ -27,8 +26,5 @@
  .main__pizza{
      display: grid;
      grid-template-columns: 1fr 1fr 1fr 1fr;
-
      justify-content: space-evenly;
-
-
  }

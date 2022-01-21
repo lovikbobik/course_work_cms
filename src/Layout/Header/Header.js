@@ -24,7 +24,7 @@ function Header() {
                         <p>Контакты</p>
                     </NavLink>
 
-                    <NavLink to={'/'} className={'blue__text'}>
+                    <NavLink to={'/help'} className={'blue__text'}>
                         <p>Помощь</p>
                     </NavLink>
 

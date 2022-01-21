@@ -1,18 +1,7 @@
 .layout{
     display: flex;
     flex-direction: row;
-   //background-color: #f2fafe;;
-    overflow-y: scroll;
-    flex: 0.6;
-}
-
-.layout::-webkit-scrollbar {
-    display: none;
-}
-
-.layout {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+//background-color: #f2fafe;;
 }
 .sticky{
     position: sticky;
