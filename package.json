@@ -1,53 +1,35 @@
 {
-  "name": "course_work_cms",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@emotion/react": "^11.7.1",
-    "@emotion/styled": "^11.6.0",
-    "@mui/icons-material": "^5.3.0",
-    "@mui/material": "^5.3.0",
-    "@testing-library/jest-dom": "^5.16.1",
-    "@testing-library/react": "^12.1.2",
-    "@testing-library/user-event": "^13.5.0",
-    "@vkontakte/icons": "^1.141.0",
-    "google-map-react": "^2.1.10",
-    "leaflet": "^1.7.1",
-    "mdbreact": "^5.2.0",
-    "react": "^17.0.2",
-    "react-bootstrap": "^2.1.1",
-    "react-dom": "^17.0.2",
-    "react-hooks-use-modal": "^2.1.0",
-    "react-scripts": "5.0.0",
-    "react-yandex-maps": "^4.6.0",
-    "web-vitals": "^2.1.3"
-  },
+  "name": "course_work",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "start": "C:/Users/goul/Documents/GitHub/course_work_cms/node_modules/.bin/react-scripts start",
-    "build": "C:/Users/goul/Documents/GitHub/course_work_cms/node_modules/.bin/react-scripts build",
-    "test": "C:/Users/goul/Documents/GitHub/course_work_cms/node_modules/.bin/react-scripts test",
-    "eject": "C:/Users/goul/Documents/GitHub/course_work_cms/node_modules/.bin/react-scripts eject"
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix сlient",
+    "dev": "concurrently \"npm run server\" \"npm run сlient\""
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "proxy": "http://localhost:5000",
+  "keywords": [
+    "mern",
+    "react"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.2.4",
+    "express": "^4.17.1",
+    "express-validator": "^6.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "materialize-css": "^1.0.0-rc.2",
+    "mongoose": "^5.8.1",
+    "react-materialize": "^3.10.0",
+    "shortid": "^2.2.15"
   },
   "devDependencies": {
-    "react-leaflet": "^3.2.5",
-    "react-router-dom": "^6.2.1"
+    "concurrently": "^5.0.2",
+    "cross-env": "^6.0.3",
+    "nodemon": "^2.0.2"
   }
 }
